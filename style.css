@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4f6d7a, #c0c0c0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #4f6d7a, #c0c0c0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#submit-btn:hover {
+    background: linear-gradient(to bottom, #c0c0c0, #4f6d7a);
+}
